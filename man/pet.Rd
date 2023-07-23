@@ -7,15 +7,16 @@
 pet(name = NULL, animal = NULL)
 }
 \arguments{
-\item{name}{A string containing the pet's name. Picks a random name by default}
+\item{name}{A string containing the pet's name. Default: random name}
 
-\item{animal}{A string containing the pet's species. Picks a random species by default}
+\item{animal}{A string containing the pet's species. Default: random species}
 }
 \value{
 String output in the console introducing you to the pet
 }
 \description{
-Get a new pet by finding out its name and species (printed console output)
+Get a new pet by finding out its name and species
+Output: Prints string in console
 }
 \examples{
 pet(name = "Old Yeller", animal = "dog")

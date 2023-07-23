@@ -7,15 +7,16 @@
 friend(name = NULL, job = NULL)
 }
 \arguments{
-\item{name}{A string containing the friend's name. Picks a random name by default}
+\item{name}{A string containing the friend's name. Default: random name}
 
-\item{job}{A string containing the friend's job. Picks a random job by default}
+\item{job}{A string containing the friend's job. Default: random job}
 }
 \value{
 String output in the console introducing you to the friend
 }
 \description{
-Make a new friend by getting to know their name and job (printed console output)
+Make a new friend by getting to know their name and job
+(printed console output)
 }
 \examples{
 pet(name = "David", job = "singer")
