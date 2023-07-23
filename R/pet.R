@@ -1,7 +1,7 @@
 #' @title pet
 #'
 #' @description Get a new pet by finding out its name and species
-#' Output: Prints string in console
+#' (printed console output)
 #'
 #' @param name A string containing the pet's name. Default: random name
 #' @param animal A string containing the pet's species. Default: random species
