@@ -3,7 +3,7 @@ Type: Package
 Title: Prints Strings Introducing You to Pets and Friends
 Version: 1.0
 Authors@R: 
-  person("Andrey", Samarskiy", email = "a.samarskiy@campus.lmu.de", 
+  person("Andrey", "Samarskiy", email = "a.samarskiy@campus.lmu.de", 
   role = c("aut", "cre"))
 Description: Contains functions, which print out introductions to whacky friends
     and pets in the console. The first introduces you to a person and gives 
