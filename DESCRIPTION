@@ -1,11 +1,16 @@
 Package: petsfriendsR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Prints Strings Introducing You to Pets and Friends
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Samarskiy", "Andrey", 
+  email = "a.samarskiy@campus.lmu.de", role = c("aut", "cre"))
+Description: Contains functions, which print out introductions to whacky friends
+    and pets in the console. The first introduces you to a person and gives 
+    their occupation. The second introduces you to a pet and tells you which
+    animal species they belong to. The user can preset the friend's (animal's)
+    name and job (species) in the functions' arguments. Otherwise, the friend
+    (pet) will be determined randomly.
+License: GPL-3
 Encoding: UTF-8
-LazyData: true
+Language: en-US
+RoxygenNote: 7.2.3
