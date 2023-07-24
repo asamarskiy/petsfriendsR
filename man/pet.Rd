@@ -16,7 +16,7 @@ String output in the console introducing you to the pet
 }
 \description{
 Get a new pet by finding out its name and species
-Output: Prints string in console
+(printed console output)
 }
 \examples{
 pet(name = "Old Yeller", animal = "dog")
